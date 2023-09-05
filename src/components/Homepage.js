@@ -1,10 +1,12 @@
 import React from 'react'
 import '../componentstyling/homepage.css'
+import logo2 from './Capture2.PNG'
+import logo3 from './Capture3.PNG'
 export default function Homepage() {
   return (
     <div className='homepage'>
         <div className='oval'>
-            <div className='crcl1'></div>
+            <div className='crcl1'><img className="log2" src={logo2}/></div>
             <div className='textdata'>
                 <h3>From College Admission<br></br>
                     to First Job Placement...
@@ -16,7 +18,7 @@ export default function Homepage() {
                     <button>Get Enrolled Now</button>
                 </div>
             </div>
-            <img/>
+            <div className='crcl1'><img className="log2" src={logo3}/></div>
         </div>
 
         <div className='bar'>

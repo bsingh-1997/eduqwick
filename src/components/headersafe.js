@@ -3,8 +3,7 @@ import mainlogo from './logo.PNG'
 import '../componentstyling/header.css'
 import { useState } from 'react';
 import { useRef } from 'react';
-// import navdata from "./navbardata"
-import collegeData from './navbardata';
+
 export default function Header() {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +51,6 @@ export default function Header() {
     return (
         <div>
 
-            
             <div className='header'>
 
                 <div className='logoonly'><img className='pngfile' src={mainlogo} /></div>
@@ -60,14 +58,16 @@ export default function Header() {
                 <div className='dropdowns'>
 
 
-                    <div className="nav-item" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                    <div className="nav-item"
+                        // onMouseOver={toggleMenu}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                    >
                         Colleges <i class="fa-solid fa-arrow-down"></i>
                         {isOpen ? (
 
                             <div className='dropd'>
                                 <div className="dropdown-menu">
-                                    <div className='deopmenubox1'>
-
                                     <div className="dropdown-item" onMouseEnter={hmengg}onMouseLeave={hmlengg}>Engineering</div>
                                     <div className="dropdown-item" onClick={hmengg1}>Management</div>
                                     <div className="dropdown-item">Hotel Management</div>
@@ -88,17 +88,58 @@ export default function Header() {
                                     <div className="dropdown-item">Education</div>
                                     <div className="dropdown-item">Law</div>
                                     <div className="dropdown-item">Fashion</div>
+                                    {/* Add more items as needed */}
                                 </div>
 
-                                <div className='itembox2'>
-                                {details1 ? <div className='sidebox'>
+
+
+
+                                <div className='dropdown22'>this is</div>
+                            </div>
+                        ) : null}
+                    </div>
+
+
+                    <div className='coursesdropdown'>
+                        Courses <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+
+                    <div className='coursesdropdown'>
+                        Exams <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+
+                    <div className='coursesdropdown'>
+                        Study Abroad
+                    </div>
+
+                    <div className='coursesdropdown'>
+                        Get Counselling
+                    </div>
+
+                    <div className='coursesdropdown'>
+                        Latest News
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+            {details1 ? <div className='sidebox'>
                 {/* <div className='enggdet'> */}
                 <div class="row noMargin enggdet">
                     <div class="one">
                         <h6>
                             Colleges By Degree
                         </h6>
-                        <a href='#'>B.tech</a>
+                        <li>B.tech</li>
                         <li>M.tech</li>
                         <li>B.tech + M.tech</li>
                         <li>Diploma</li>
@@ -141,18 +182,17 @@ export default function Header() {
                     {/* </div> */}
                 </div></div> : null}
 
-                {details2 ? <div className='sidebox'>
+                {!details1 && details2 ? <div className='sidebox'>
                 {/* <div className='enggdet'> */}
                 <div class="row noMargin enggdet">
                     <div class="one">
                         <h6>
                             Colleges By Degree
                         </h6>
-                        <li>Course1</li>
-                        <li>Course2</li>
-                        <li>Course3</li>
-                        <li>Course4</li>
-                        
+                        <li>B.tech</li>
+                        <li>M.tech</li>
+                        <li>B.tech + M.tech</li>
+                        <li>Diploma</li>
                         <li>  <a href='/'>View all</a>
                         </li>
                     </div>
@@ -191,54 +231,6 @@ export default function Header() {
                     <li>Didnt find what you were looking for ? <a href='/'>  Click here</a> to get a call from Counselor!!</li>
                     {/* </div> */}
                 </div></div> : null}
-
-                                </div>
-                                    
-                                    
-                                    </div>
-
-
-
-
-                               
-                            </div>
-                        ) : null}
-                    </div>
-
-
-                    <div className='coursesdropdown'>
-                        Courses <i class="fa-solid fa-arrow-down"></i>
-                    </div>
-
-                    <div className='coursesdropdown'>
-                        Exams <i class="fa-solid fa-arrow-down"></i>
-                    </div>
-
-                    <div className='coursesdropdown'>
-                        Study Abroad
-                    </div>
-
-                    <div className='coursesdropdown'>
-                        Get Counselling
-                    </div>
-
-                    <div className='coursesdropdown'>
-                        Latest News
-                    </div>
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-            </div>
-                                        
         </div>
     )
 }

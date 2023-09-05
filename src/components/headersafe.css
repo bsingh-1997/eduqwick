@@ -32,37 +32,16 @@
   }
   
   .dropdown-menu {
- display: flex;
-    /* display: block; */
+    display: block;
     position: absolute;
     top: 100%;
     left: 0;
-    /* background-color: #fff; */
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 10px;
     min-width: 150px;
-    /* background-color: rgb(232, 246, 255); */
-    width: 75rem;
-    left: -23rem;
-    margin-top: 2rem;
-    height: 34rem;
-  }
-  .deopmenubox1{
-    margin: 1rem 0;
-    padding: .5rem;
-    background-color: aliceblue;
-    width: 15rem;
-    margin-right: 2rem;
-  }
-  .itembox2{
-    margin: 1rem 0;
-    padding: 0.5rem;
-    /* background-color: pink; */
-    width: 53rem;
-    background-color: #ffebee;
-
+    background-color: rgb(232, 246, 255);
   }
   .dropd{
     display: flex;
@@ -104,12 +83,10 @@
 .row {
     display: flex;
     width: 100%;
-    margin-right: 1rem;
   }
   
   .row div {
     width: 50%;
-    margin-bottom: 2rem;
   }
   
   .noMargin {
@@ -132,10 +109,10 @@
     /* background-color: blue; */
   }
   .sidebox{
-        /* margin-left: 42rem; */
-        width: 50rem;
-        height: 27rem;
-        /* background-color: #ffebee; */
+        margin-left: 42rem;
+        width: 40rem;
+        height: 23rem;
+        background-color: #ffebee;
         padding-left: 0rem;
         display: block;
         /* display: block; */

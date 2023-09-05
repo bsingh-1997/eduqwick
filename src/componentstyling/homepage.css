@@ -6,11 +6,12 @@
 .oval{
     /* position: static; */
     padding-top: 10px;
-    /* display: flex; */
+    display: flex;
     background-color: rgb(243, 243, 243);
     height: 20rem;
     margin: 0 7rem;
     border-radius: 290px;
+    min-width: 1124px;
     /* display: flex; */
 }
 .buttonss{
@@ -51,11 +52,26 @@ li{
     display: flex;
     margin: 2rem 12rem;
     height: 5rem;
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
     text-align: left;
 }
 .texttt{
     color: blueviolet;
     margin-right: 5rem;
     font-weight:500;
+    width: 37%;
+}
+
+.log2{
+        height: 17rem;
+        border-radius: 124px;
+        width: 18rem;
+        margin: 1rem 2rem;
+    
+}
+.crcl1{
+    width: 26%;
+}
+.textdata{
+    margin: 0 5rem;
 }

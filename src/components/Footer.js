@@ -11,11 +11,11 @@ export default function Footer() {
 
             <div className='icons'>
 
-            <div className='iconcomps'><i class="fa-brands fa-instagram fa-2xl"></i></div>
-            <div className='iconcomps'><i class="fa-brands fa-whatsapp fa-2xl"></i></div>
-            <div className='iconcomps'><i class="fa-brands fa-facebook fa-2xl"></i></div>
-           <div className='iconcomps'> <i class="fa-brands fa-youtube fa-2xl"></i></div>
-            <div className='iconcomps'><i class="fa-brands fa-twitter fa-2xl"></i></div>
+            <div className='iconcomps'><a href='https://www.instagram.com/' target='blank'><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+            <div className='iconcomps'><a href='https://www.whatsapp.com/' target='blank'><i class="fa-brands fa-whatsapp fa-2xl"></i></a></div>
+            <div className='iconcomps'><a href='https://www.facebook.com/' target='blank'><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
+           <div className='iconcomps'> <a href='https://www.youtube.com/' target='blank'><i class="fa-brands fa-youtube fa-2xl"></i></a></div>
+            <div className='iconcomps'><a href='https://www.twitter.com/' target='blank'><i class="fa-brands fa-twitter fa-2xl"></i> </a></div>
 
             </div>
 
