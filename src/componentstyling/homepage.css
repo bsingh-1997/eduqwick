@@ -1,0 +1,61 @@
+.homepage{
+/* position: relative; */
+    margin-top: 20px;
+/* align-items: center; */
+}
+.oval{
+    /* position: static; */
+    padding-top: 10px;
+    /* display: flex; */
+    background-color: rgb(243, 243, 243);
+    height: 20rem;
+    margin: 0 7rem;
+    border-radius: 290px;
+    /* display: flex; */
+}
+.buttonss{
+    margin-top: 50px;
+    display: inline-grid;
+}
+button{
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blueviolet;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+/* .crcl1{
+    width: 26rem;
+    padding: 10rem;
+    background-color: white;
+    height: 15rem;
+    border-radius: 600px;
+    margin: 2rem;
+    margin-left: .3rem;
+} */
+.bar{
+    
+    /* background-color: rgb(204, 204, 204); */
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    margin: 2rem 8rem;
+}
+li{
+    margin-right: 20px;
+}
+.lastbox{
+    
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    margin: 2rem 12rem;
+    height: 5rem;
+    padding: 1rem 6rem;
+    text-align: left;
+}
+.texttt{
+    color: blueviolet;
+    margin-right: 5rem;
+    font-weight:500;
+}

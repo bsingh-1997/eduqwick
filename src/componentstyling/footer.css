@@ -1,0 +1,46 @@
+.socialmedia{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .text1 {
+        overflow: hidden;
+        max-height: 4rem;
+        max-width: 15rem;
+        margin: 2rem 2rem;
+        /* background-color: red; */
+        text-align: left;
+        font-weight: 500;
+        height: 5rem;
+        width: 17rem;
+    }
+.icons{
+    display: flex;
+    margin: 2rem 2rem;
+    padding:1rem;
+}
+.iconcomps{
+    margin-right: .5rem;
+}
+.email{
+    padding:1.1rem 0rem;
+    margin: 2rem 2rem;
+
+}
+.phoneno{
+    padding:1.1rem 0rem;
+    margin: 2rem 2rem;
+
+}
+hr {
+    display: flex;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 0;
+    color: black;
+    padding: 0;
+    width: 80%;
+    margin-left: 8rem;
+    /* justify-content: center; */
+}
