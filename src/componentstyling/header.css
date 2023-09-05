@@ -114,7 +114,10 @@
         height: 23rem;
         background-color: #ffebee;
         padding-left: 0rem;
-  }
+        display: block;
+        /* display: block; */
+        position: absolute;
+      }
   li {
     text-align: left;
     list-style: none;
