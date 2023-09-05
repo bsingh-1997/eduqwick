@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    min-width: 1100px;
 }
 .logoonly{
     margin-left: 7rem;

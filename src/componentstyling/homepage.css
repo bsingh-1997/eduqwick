@@ -13,10 +13,12 @@
     border-radius: 290px;
     min-width: 1124px;
     /* display: flex; */
+    /* margin: auto    ; */
 }
 .buttonss{
     margin-top: 50px;
     display: inline-grid;
+    /* min-width: 300px; */
 }
 button{
     margin-bottom: 40px;
@@ -42,6 +44,7 @@ button:hover{
     background-color: rgb(243, 243, 243);
     display: flex;
     margin: 2rem 8rem;
+    min-width: 900px;
 }
 li{
     margin-right: 20px;
@@ -54,6 +57,7 @@ li{
     height: 5rem;
     padding: 1rem 5rem;
     text-align: left;
+    min-width: 900px;
 }
 .texttt{
     color: blueviolet;
